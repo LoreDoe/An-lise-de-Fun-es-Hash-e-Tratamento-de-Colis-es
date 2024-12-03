@@ -52,6 +52,8 @@ public class JanelaPrincipal extends JFrame {
             }
         });
 
+        btnPesquisar.addActionListener(e -> new JanelaPesquisaCliente(this));  // Abre a janela de pesquisa
+
         setVisible(true);
     }
 }

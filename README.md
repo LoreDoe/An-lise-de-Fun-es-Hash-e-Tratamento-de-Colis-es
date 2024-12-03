@@ -38,7 +38,9 @@ src/
 
 
 📝 Como Usar
+```
     Listar Clientes: Clique no botão Listar Clientes para exibir os clientes em ordem alfabética.
     Pesquisar Cliente: (Em desenvolvimento).
     Inserir Cliente: Clique em Inserir Cliente, preencha os campos e salve o cliente.
     Remover Cliente: Clique em Remover Cliente e insira o ID do cliente para removê-lo.
+```

@@ -22,8 +22,8 @@ Este projeto é um sistema para gerenciar o cadastro de clientes de uma empresa 
 
 ---
 
-```## 📂 Estrutura do Projeto
-src/
+## 📂 Estrutura do Projeto
+```src/
 ├── models/
 │   └── Cliente.java # Classe que representa o cliente 
 ├── utils/

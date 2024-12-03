@@ -23,13 +23,14 @@ Este projeto é um sistema para gerenciar o cadastro de clientes de uma empresa 
 ---
 
 ## 📂 Estrutura do Projeto
-src/ ├── models/ 
+src/ 
+├── models/
 │ └── Cliente.java # Classe que representa o cliente 
-├── utils/ 
-│ └── OrdenadorExterno.java # Algoritmo para ordenação externa 
-│ └── ArquivoCliente.java # Gerenciamento de leitura/escrita de arquivos 
-├── gui/ │ └── JanelaPrincipal.java # Interface gráfica principal 
-│ └── JanelaDetalhesCliente.java # Tela de inserção de clientes 
+├── utils/
+│ └── OrdenadorExterno.java # Algoritmo para ordenação externa
+│ └── ArquivoCliente.java # Gerenciamento de leitura/escrita de arquivos
+├── gui/ │ └── JanelaPrincipal.java # Interface gráfica principal
+│ └── JanelaDetalhesCliente.java # Tela de inserção de clientes
 └── App.java # Classe principal para iniciar o sistema
 
 📝 Como Usar

@@ -23,7 +23,8 @@ Este projeto é um sistema para gerenciar o cadastro de clientes de uma empresa 
 ---
 
 ## 📂 Estrutura do Projeto
-```src/
+```
+src/
 ├── models/
 │   └── Cliente.java # Classe que representa o cliente 
 ├── utils/
@@ -32,7 +33,8 @@ Este projeto é um sistema para gerenciar o cadastro de clientes de uma empresa 
 ├── gui/
 │   └── JanelaPrincipal.java # Interface gráfica principal
 │   └── JanelaDetalhesCliente.java # Tela de inserção de clientes
-└── App.java # Classe principal para iniciar o sistema```
+└── App.java # Classe principal para iniciar o sistema
+```
 
 
 📝 Como Usar

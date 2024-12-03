@@ -22,7 +22,7 @@ Este projeto é um sistema para gerenciar o cadastro de clientes de uma empresa 
 
 ---
 
-## 📂 Estrutura do Projeto
+```## 📂 Estrutura do Projeto
 src/
 ├── models/
 │   └── Cliente.java # Classe que representa o cliente 
@@ -32,7 +32,8 @@ src/
 ├── gui/
 │   └── JanelaPrincipal.java # Interface gráfica principal
 │   └── JanelaDetalhesCliente.java # Tela de inserção de clientes
-└── App.java # Classe principal para iniciar o sistema
+└── App.java # Classe principal para iniciar o sistema```
+
 
 📝 Como Usar
     Listar Clientes: Clique no botão Listar Clientes para exibir os clientes em ordem alfabética.

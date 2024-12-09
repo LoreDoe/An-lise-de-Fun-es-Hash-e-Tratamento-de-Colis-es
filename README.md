@@ -18,22 +18,19 @@ Este projeto é um sistema para gerenciar o cadastro de clientes de uma empresa 
 - **Java**: Linguagem de programação principal.
 - **Swing**: Para a criação da interface gráfica.
 - **Algoritmos de Ordenação Externa**: Para lidar com grandes volumes de dados armazenados em arquivos.
-- **Manipulação de Arquivos**: Leitura e escrita de dados diretamente em arquivos de texto.
 
 ---
 
 ## 📂 Estrutura do Projeto
 ```
-src/
-├── models/
-│   └── Cliente.java # Classe que representa o cliente 
-├── utils/
-│   └── OrdenadorExterno.java # Algoritmo para ordenação externa
-│   └── ArquivoCliente.java # Gerenciamento de leitura/escrita de arquivos
-├── gui/
-│   └── JanelaPrincipal.java # Interface gráfica principal
-│   └── JanelaDetalhesCliente.java # Tela de inserção de clientes
-└── App.java # Classe principal para iniciar o sistema
+ClienteGUI/
+│
+├── src/
+│   └── ClienteGUI.java               # Código da interface gráfica e lógica de manipulação de clientes
+│
+├── clientes.txt                      # Arquivo de texto para armazenar os clientes
+│
+└── README.md  
 ```
 
 
@@ -41,6 +38,6 @@ src/
 ```
     Listar Clientes: Clique no botão Listar Clientes para exibir os clientes em ordem alfabética.
     Pesquisar Cliente: Clique no botão Pesquisar Clientes para pesquisar o cliente especificado pelo seu nome.
-    Inserir Cliente: Clique em Inserir Cliente, preencha os campos e salve o cliente.
+    Adicionar Cliente: Clique em Inserir Cliente, preencha os campos e salve o cliente.
     Remover Cliente: Clique em Remover Cliente e insira o ID do cliente para removê-lo.
 ```
